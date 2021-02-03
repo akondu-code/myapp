@@ -1,0 +1,620 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body {
+    padding-top: 50px;
+}
+
+.header {
+    position: relative;
+    background: url("images/stair.JPG") no-repeat center center/cover;
+    width: 100%;
+    height: 620px; 
+}
+
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    }
+    
+    
+ .flex-container {
+     height: 50px;
+     display: flex;
+     background-color: rgb(226, 92, 119);
+     align-items: center;
+     justify-content: space-between;
+     flex-direction: row;
+     padding: 2rem;
+ }
+
+.flex-container ul li {
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 1rem;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-family: 'Pacifico' cursive;
+    font-size: 35px;
+}
+.h2 {
+    color: white;
+    font-family: 'Pacifico' cursive;
+    font-size: 90px;
+    padding-top: 140px;
+    padding-left: 75px;
+}
+
+.para {
+    color: white;
+    padding-top: 30px;
+    padding-left: 75px;
+    padding-bottom: 35px;
+    font-size: 45px;
+}
+
+.button {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 45px;
+    width: 130px;
+    padding:  8px 9px;
+    text-align: center;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color:  rgb(226, 92, 119);
+    color: white;
+}
+
+.sticky {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 50;
+}
+
+.myBio {
+    width: 100%;
+    height: 250px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.bio {
+    text-align: center;
+    color:  rgb(226, 92, 119);
+    padding-bottom: 15px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+h3 {
+color: rgb(9, 9, 39);
+font-size: 30px;
+}
+
+.par {
+    text-align: center;
+    color: gray;
+    padding-top: 27px;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.space {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows:  none;
+    height: 550px;
+    width: 100%;
+     grid-gap: 25px;
+    padding: 10px;
+}
+
+
+.gridpic {
+    width: 100%;
+    height: 539px;
+    object-fit: contain, cover;
+}
+
+h4 {
+    font-size: 40px;
+    color: rgb(9, 9, 39);
+    justify-content: left;
+}
+
+.inner-grid {
+    display: grid;
+    padding-top: 20px;
+    grid-template-columns: 50% 50%;
+    /* grid-template-rows: 50% 50%; */
+ grid-gap: 10px;
+}
+/* 
+.inner-grid >div {
+    background-color: lawngreen;
+    
+} */
+
+.inn {
+    height: 100px;
+}
+
+.in {
+    height: 45px;
+}
+
+.links {
+    font-size: 22px;
+    color:  rgb(9, 9, 39);
+    text-decoration: none;
+}
+.links:hover {
+    color:  rgb(226, 92, 119);
+}
+
+.papa {
+    color: gray;
+    padding-top: 17px;
+    line-height: 25px;
+    font-size: 18px;
+}
+.button2 {
+ color:  white;
+    background-color:  rgb(226, 92, 119);
+    border: 2px solid  rgb(226, 92, 119);
+    border-radius: 5px;
+    height: 45px;
+    width: 130px;
+    padding:  8px 9px;
+    text-align: center;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: white;
+    color:  rgb(226, 92, 119);
+}
+
+.nawa {
+ color: rgb(9, 9, 39);
+font-size: 35px;   
+text-align: center;
+}
+
+.anotherflex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.anotherflex > div {
+    width: 320px;
+    height: 250px;
+    padding-left: 15px;
+    margin: 10px;
+    /* line-height: 75px; */
+    /* text-align: justify;
+    font-size: large; */
+}
+
+.ani {
+    font-size: 22px;
+    color:  rgb(9, 9, 39);
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.trans {
+    width: 100px;
+    height: 4px;
+    background:  rgb(226, 92, 119);
+    transition: width 10s linear 1s;
+}
+
+.trans:hover {
+    width: 300px;
+} 
+.trans2 {
+    width: 100px;
+    height: 4px;
+    background:  rgb(226, 92, 119);
+    transition: width 10s linear 1s;
+}
+
+.trans2:hover {
+    width: 250px;
+}
+
+ 
+.trans3 {
+    width: 200px;
+    height: 4px;
+    background:  rgb(226, 92, 119);
+    transition: width 10s linear 1s;
+}
+
+.trans3:hover {
+    width: 270px;
+}
+ 
+.trans4 {
+    width: 200px;
+    height: 4px;
+    background:  rgb(226, 92, 119);
+    transition: width 10s linear 1s;
+}
+
+.trans4:hover {
+    width: 300px;
+}
+
+ 
+.trans5 {
+    width: 150px;
+    height: 4px;
+    background:  rgb(226, 92, 119);
+    transition: width 10s linear 1s;
+}
+
+.trans5:hover {
+    width: 250px;
+}
+
+ 
+.trans6 {
+    width: 100px;
+    height: 4px;
+    background:  rgb(226, 92, 119);
+    transition: width 10s linear 1s;
+}
+
+.trans6:hover {
+    width: 250px;
+}
+ 
+.trans7 {
+    width: 100px;
+    height: 4px;
+    background:  rgb(226, 92, 119);
+    transition: width 10s linear 1s;
+}
+
+.trans7:hover {
+    width: 250px;
+}
+ 
+.trans8 {
+    width: 120px;
+    height: 4px;
+    background:  rgb(226, 92, 119);
+    transition: width 10s linear 1s;
+}
+
+.trans8:hover {
+    width: 200px;
+}
+
+ 
+.trans9 {
+    width: 210px;
+    height: 4px;
+    background:  rgb(226, 92, 119);
+    transition: width 10s linear 1s;
+}
+
+.trans9:hover {
+    width: 300px;
+}
+
+.flexing {
+    padding-top: 50px;
+padding-bottom: 150px;
+    display: flex;
+ flex-wrap: nowrap;
+ justify-content: center;
+}
+
+.flexing > div {
+    border: 1px solid rgb(165, 162, 162); padding: 4px;
+    border-radius: 10px;
+    height: 230px;
+    width: 230px;
+    margin: 10px;
+}
+
+.numb {
+    padding-top: 60px;
+    text-align: center;
+color: rgb(9, 9, 39);
+font-size: 50px;
+}
+
+.flexboxx {
+    display: flex;
+    padding-top: 50px;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.flexboxx > div { 
+    border: 1px solid rgb(202, 200, 200); padding: 4px;
+    border-radius: 10px;
+    height: 300px;
+    width: 350px;
+    margin: 10px;
+    padding-left: 20px;
+}
+
+.lala {
+    text-align: left;
+    color: gray;
+    padding-top: 17px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.boxgrid {
+    display: flex;
+    padding-top: 30px;
+    flex-wrap: nowrap;
+    justify-content: left;
+}
+
+.boxx1 {
+    height: 100px;
+    margin: 10px;
+    width: 120px;
+}
+
+.boxx2 {
+    height: 100px;
+    margin: 10px;
+    width: 200px;
+}
+
+.hafu {
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.apple {
+    text-align: left;
+    color: gray;
+    font-size: 18px; 
+    padding-bottom: 15px;  
+}
+
+.office {
+    text-align: left;
+    color: gray;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.almost {
+    padding-top: 150px;
+    
+}
+
+.division {
+    padding-top: 45px;
+    padding-bottom: 75px;
+text-align: center;
+}
+
+.buttons {
+    color:  white;
+       background-color:  rgb(226, 92, 119);
+       border: 2px solid  rgb(226, 92, 119);
+       border-radius: 5px;
+       height: 45px;
+       width: 130px;
+       padding:  8px 9px;
+       text-align: center;
+       font-size: 16px;
+   }
+   
+   button:hover {
+       background-color: white;
+       color:  rgb(226, 92, 119);
+   }
+
+.computer {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background: url("images/laptop.jpg") no-repeat center center/cover;
+   }
+
+.overlay2 {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    }  
+    
+    
+.lastflex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.lastflex > div { 
+    justify-content: flex-start;
+    background-color: transparent;
+    height: 290px;
+    width: 500px;
+    margin: 10px;
+    padding-left: 20px;
+}
+
+.last1 {
+padding-top: 150px;
+padding-left: 50px;
+text-align: left;
+}
+.boy {
+    font-size: 15px;
+    width: 300px;
+    height: 50px;
+}
+.lastbutt {
+    color:  white;
+       background-color:  rgb(226, 92, 119);
+       border: none;
+       height: 48px;
+       width: 120px;
+       /* padding:  8px 9px; */
+       text-align: center;
+       font-size: 16px;
+   }
+   
+   button:hover {
+       background-color: black;
+       color:  rgb(226, 92, 119);
+}
+
+h5 {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.paraa {
+    color: white;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: left;
+}
+
+.footer {
+    height: 350px;
+    background-color: rgb(19, 18, 18);
+}
+
+.demarcate {
+padding-left: 50px;
+padding-right: 50px;
+
+}
+.noname {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding-top:50px;
+    padding-bottom: 70px;
+}
+
+.noname > div {
+    height: 120px;
+    width: 240px;
+}
+
+.foot {
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    padding-bottom: 25px;
+}
+
+.foots {
+    color: gray;
+    font-size: 17px;
+    text-align: center;
+    line-height: 23px;
+
+}
+
+.vertical {
+    border-right: 1px solid gray;
+    height: 70px;
+    padding-left: 5px ;
+}
+
+.mymail {
+    color: gray;
+    text-decoration: none;
+}
+
+.mymail:hover {
+    color:  rgb(226, 92, 119);
+}
+
+hr {
+    border: 1px solid gray;
+}
+
+.endflex {
+    display: flex;
+    flex-wrap: nowrap;
+ justify-content: space-around;
+ padding-top: 20px; 
+ padding-bottom: 50px;
+}
+
+.endflex > div {
+    height: 50px;
+    /* width: 400px; */
+}
+
+.privacy {
+    width: 200px;
+    justify-content: flex-start;
+}
+
+.footfoot {
+    color: gray;
+    font-size: 17px;   
+}
+.privacy2 {
+    width: 700px;
+    text-align: center;
+}
+
+.privacy3 {
+    width: 200px;
+    text-align: end;
+}
+
+.footnav ul {
+    margin: 2px;
+}
+
+.footnav li{
+margin-top: 4rem;
+     display: inline;
+    /* align-items: center;
+    margin-left: 50%;  */
+}
